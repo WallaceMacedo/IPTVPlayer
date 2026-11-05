@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="demo.akamai" tvg-logo="" group-title="Demo - Ao Vivo",Canal Demo 1 (HLS ao vivo)
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 tvg-id="demo.mux" tvg-logo="" group-title="Demo - Ao Vivo",Canal Demo 2 (HLS)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="demo.bipbop" tvg-logo="" group-title="Demo - Ao Vivo",Canal Demo 3 (HLS)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+#EXTINF:-1 tvg-id="demo.tos" tvg-logo="" group-title="Demo - Ao Vivo",Canal Demo 4 - Tears of Steel (HLS)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg" group-title="Filmes Abertos (Blender / CC-BY)",Sintel - Trailer (2010)
+https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4
+#EXTINF:-1 tvg-logo="" group-title="Filmes Abertos (Blender / CC-BY)",Sintel - Clipe 1080p
+https://test-videos.co.uk/vids/sintel/mp4/h264/1080/Sintel_1080_10s_30MB.mp4
+#EXTINF:-1 tvg-logo="" group-title="Filmes Abertos (Blender / CC-BY)",Big Buck Bunny - Clipe 1080p
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_30MB.mp4
+#EXTINF:-1 tvg-logo="" group-title="Filmes Abertos (Blender / CC-BY)",Big Buck Bunny - Clipe 720p
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4
