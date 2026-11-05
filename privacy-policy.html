@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade / Privacy Policy - IPTV Player</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1f27; --muted: #5a6372; --line: #d9dde4; --accent: #1a4fd6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0f17; --fg: #e6e9ef; --muted: #9aa3b2; --line: #263043; --accent: #7aa2ff; }
+  }
+  html { background: var(--bg); }
+  body { margin: 0; padding: 24px 16px 64px; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 28px 0 8px; }
+  h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  nav { margin: 16px 0 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 0.92em; }
+</style>
+</head>
+<body>
+<main>
+
+<nav>
+  <a href="#pt">Português (Brasil)</a> &middot; <a href="#en">English</a>
+</nav>
+
+<!-- ===================== PORTUGUÊS ===================== -->
+<section id="pt" lang="pt-BR">
+  <h1>Política de Privacidade - IPTV Player</h1>
+  <p class="meta">Aplicativo: IPTV Player (com.lgiptv.player), versão 1.0.0, para LG webOS TV. Desenvolvedor: Wallace Macedo.<br>
+  Vigência: 5 de novembro de 2026 (2026-11-05).</p>
+
+  <h2>1. O que é o aplicativo</h2>
+  <p>O IPTV Player é apenas um reprodutor de mídia. Ele não fornece, não hospeda e não vende canais, filmes, séries ou qualquer outro conteúdo, e não tem afiliação com nenhum provedor. Você informa a lista (M3U) ou a conta (Xtream Codes) que quiser usar, e o aplicativo reproduz o que o seu servidor entregar.</p>
+
+  <h2>2. Dados que o aplicativo usa</h2>
+  <p>Para funcionar, o aplicativo guarda, apenas na memória local (localStorage) da sua TV:</p>
+  <ul>
+    <li>o nome, a URL e, no caso de contas Xtream Codes, o servidor, o <strong>usuário e a senha</strong> de cada lista que você cadastrar;</li>
+    <li>qual lista está em uso;</li>
+    <li>o seu histórico de uso dentro de cada lista: progresso de filmes e episódios ("Continuar assistindo"), "Minha lista", avaliações (curtir / não curtir) e gêneros de interesse usados para sugestões;</li>
+    <li>o aceite do aviso legal e a preferência de exibir ou não o painel de diagnóstico do player.</li>
+  </ul>
+  <p>Esses dados <strong>não são enviados ao desenvolvedor</strong>. O desenvolvedor não opera nenhum servidor que receba dados do aplicativo e não tem acesso a eles.</p>
+
+  <h2>3. Para onde os dados são enviados</h2>
+  <p>O aplicativo só se comunica pela internet para acessar o que você pediu:</p>
+  <ul>
+    <li><strong>O servidor que você informou.</strong> A URL da lista M3U ou o servidor Xtream Codes recebe as requisições do aplicativo (lista de canais, filmes e séries, guia de programação e as transmissões). Em contas Xtream Codes, o usuário e a senha são enviados a esse servidor, como o protocolo exige.</li>
+    <li><strong>Os endereços contidos na sua lista.</strong> Os endereços de vídeo, pôsteres, logotipos e imagens de fundo vêm da própria lista. Se a lista apontar para outros servidores (por exemplo, um servidor de imagens), o aplicativo faz as requisições a eles para exibir o conteúdo, e esses servidores podem ver o endereço IP da sua TV. O aplicativo não escolhe nem adiciona esses endereços.</li>
+  </ul>
+  <p>O aplicativo <strong>não</strong> contém ferramentas de análise de uso (analytics), publicidade, relatórios de falhas, rastreadores, cookies de terceiros ou bibliotecas de terceiros que coletem dados. O aplicativo não envia dados a terceiros por conta própria, não vende nem compartilha seus dados, e não cria perfis fora da sua TV.</p>
+
+  <h2>4. Conexões seguras e credenciais</h2>
+  <ul>
+    <li>Se o endereço do servidor for digitado sem <code>https://</code> ou <code>http://</code>, o aplicativo assume <code>http://</code>. Conexões <code>http</code> <strong>não são criptografadas</strong>: usuário, senha e o conteúdo da lista podem ser vistos por quem controla a rede entre a sua TV e o servidor. Use <code>https://</code> sempre que o seu provedor oferecer.</li>
+    <li>O protocolo Xtream Codes coloca o usuário e a senha na própria URL das requisições (por exemplo, em endereços de transmissão), o que pode fazer essas credenciais aparecerem em registros do servidor ou de intermediários da rede. Isso é característica do protocolo e fica fora do controle do aplicativo.</li>
+    <li>No aparelho, a senha é guardada sem criptografia adicional no armazenamento local do aplicativo, que é isolado dos demais aplicativos pelo webOS.</li>
+  </ul>
+
+  <h2>5. Responsabilidade pelo conteúdo</h2>
+  <p>Você é o único responsável pelas listas e contas que adicionar e por ter o direito de acessar o conteúdo delas. O aplicativo não filtra nem classifica o conteúdo da sua lista.</p>
+
+  <h2>6. Como apagar os seus dados</h2>
+  <ul>
+    <li><strong>Uma lista:</strong> abra o avatar no canto superior direito (ou a tecla vermelha na TV ao Vivo) para ir a "Minhas listas", escolha "Excluir" na lista e confirme. Isso apaga a lista, a senha e o histórico, "Minha lista" e avaliações dessa lista.</li>
+    <li><strong>Tudo:</strong> desinstale o aplicativo da TV. O webOS remove os dados locais do aplicativo.</li>
+  </ul>
+  <p>Como o desenvolvedor não recebe os seus dados, não há cópias para solicitar ou excluir do lado dele. Dados mantidos pelo seu provedor de lista ou conta seguem a política dele.</p>
+
+  <h2>7. Crianças</h2>
+  <p>O aplicativo não é dirigido a crianças e não coleta dados pessoais de ninguém. O conteúdo acessado depende exclusivamente da lista informada pelo usuário.</p>
+
+  <h2>8. Alterações nesta política</h2>
+  <p>Esta política pode ser atualizada. A versão em vigor e a data de vigência ficam no topo desta página. Mudanças relevantes no tratamento de dados serão acompanhadas de nova versão do aplicativo e novo aviso legal.</p>
+
+  <h2>9. Contato</h2>
+  <p>Dúvidas sobre esta política: <a href="mailto:CONTATO@SEU-DOMINIO">wallaceamacedo@gmail.com</a></p>
+</section>
+
+<hr>
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="en" lang="en">
+  <h1>Privacy Policy - IPTV Player</h1>
+  <p class="meta">Application: IPTV Player (com.lgiptv.player), version 1.0.0, for LG webOS TV. Developer: Wallace Macedo.<br>
+  Effective date: November 5, 2026 (2026-11-05).</p>
+
+  <h2>1. What the app is</h2>
+  <p>IPTV Player is only a media player. It does not provide, host or sell channels, movies, series or any other content, and it is not affiliated with any provider. You enter the playlist (M3U) or account (Xtream Codes) you want to use, and the app plays what your server delivers.</p>
+
+  <h2>2. Data the app uses</h2>
+  <p>To work, the app stores the following only in your TV's local storage (localStorage):</p>
+  <ul>
+    <li>the name, the URL and, for Xtream Codes accounts, the server, <strong>username and password</strong> of each list you add;</li>
+    <li>which list is currently in use;</li>
+    <li>your usage history inside each list: movie and episode progress ("Continue watching"), "My list", ratings (like / dislike) and genres of interest used for suggestions;</li>
+    <li>your acceptance of the legal notice and the choice to show or hide the player diagnostics panel.</li>
+  </ul>
+  <p>This data is <strong>not sent to the developer</strong>. The developer does not operate any server that receives data from the app and has no access to it.</p>
+
+  <h2>3. Where data is sent</h2>
+  <p>The app only communicates over the internet to reach what you asked for:</p>
+  <ul>
+    <li><strong>The server you entered.</strong> The M3U list URL or the Xtream Codes server receives the app's requests (channel, movie and series lists, program guide and the streams). For Xtream Codes accounts, the username and password are sent to that server, as the protocol requires.</li>
+    <li><strong>Addresses contained in your list.</strong> Video, poster, logo and background-image addresses come from the list itself. If the list points to other servers (for example, an image server), the app makes requests to them to display the content, and those servers may see your TV's IP address. The app does not choose or add these addresses.</li>
+  </ul>
+  <p>The app contains <strong>no</strong> analytics, advertising, crash reporting, trackers, third-party cookies or third-party libraries that collect data. The app does not send data to third parties on its own, does not sell or share your data, and does not build profiles outside your TV.</p>
+
+  <h2>4. Secure connections and credentials</h2>
+  <ul>
+    <li>If a server address is typed without <code>https://</code> or <code>http://</code>, the app assumes <code>http://</code>. <code>http</code> connections are <strong>not encrypted</strong>: username, password and list content can be seen by whoever controls the network between your TV and the server. Use <code>https://</code> whenever your provider offers it.</li>
+    <li>The Xtream Codes protocol places the username and password in the request URLs themselves (for example, in stream addresses), which may cause these credentials to appear in server or network intermediary logs. This is a characteristic of the protocol and outside the app's control.</li>
+    <li>On the device, the password is stored without additional encryption in the app's local storage, which webOS isolates from other applications.</li>
+  </ul>
+
+  <h2>5. Responsibility for content</h2>
+  <p>You are solely responsible for the lists and accounts you add and for having the right to access their content. The app does not filter or rate the content of your list.</p>
+
+  <h2>6. How to delete your data</h2>
+  <ul>
+    <li><strong>One list:</strong> open the avatar at the top right (or the red key on Live TV) to go to "Minhas listas" (My lists), choose "Excluir" (Delete) on the list and confirm. This deletes the list, the password and that list's history, "My list" and ratings.</li>
+    <li><strong>Everything:</strong> uninstall the app from the TV. webOS removes the app's local data.</li>
+  </ul>
+  <p>Because the developer does not receive your data, there are no copies on the developer's side to request or delete. Data held by your list or account provider is governed by that provider's policy.</p>
+
+  <h2>7. Children</h2>
+  <p>The app is not directed at children and does not collect personal data from anyone. The content accessed depends solely on the list supplied by the user.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>This policy may be updated. The current version and its effective date are at the top of this page. Material changes in data handling will be accompanied by a new app version and a new legal notice.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:CONTATO@SEU-DOMINIO">wallaceamacedo@gmail.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
